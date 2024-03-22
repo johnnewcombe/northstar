@@ -1,5 +1,13 @@
 # North Star Disk Images 
 
+According to David Given (cowlark.com) and others the .NSI image is equivalent to an .IMG image. It is simply a raw dump of the data with no other information.
+
+__Cyl × Hds × (Sec per trk) × (byte per sec)__
+
+* 35 x 1 x 10 x 256 = 89,600 bytes - single (FM)
+* 35 x 1 x 10 x 512 = 179,200 bytes - double (MFM)
+* 35 x 2 x 10 x 512 = 358,400 bytes - quad (MFM)
+
 ## Recovered from BitSavers
 
 * D01B01.NSI - CP/M RELEASE 2.2 1.2.0 DQH 013658
